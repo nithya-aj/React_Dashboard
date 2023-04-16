@@ -10,7 +10,7 @@ const Table = ({ transactions }) => {
         acc[account].credit = acc[account].credit + credit
         return acc
     }, {})
-    console.log(accountTotal);
+
     const data = Object.entries(accountTotal)
     return (
         <table style={{ width: '100%' }} border="2">
